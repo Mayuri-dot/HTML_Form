@@ -1,0 +1,42 @@
+
+.form-container{
+  width:500px;
+  margin:auto;
+  padding:20px;
+  border:2px solid black;
+  
+}
+
+.form-group {  
+  display: flex;  
+  align-items: center;  
+  margin-bottom: 15px;  
+}  
+h1 {
+    text-align:center;
+    color: navy;
+    
+  }
+
+*{
+  text-align: justify;
+}
+
+input
+{
+  margin-top:5px;
+  margin-buttom:5px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+footer{
+  margin-left: 100px;
+  margin-top:10px;
+
+}
+.form_buttons{
+  margin:0 auto;
+  text-align:center;
+
+}

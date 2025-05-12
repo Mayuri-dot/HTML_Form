@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1>Employee Details Form</h1>
+    <form action="/action_page.php" method="post">
+      <div class="form-container">
+        <div class="form-group">
+          <lable>First Name: </lable>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            maxlenghth="50"
+            autofocus
+          />
+        </div>
+
+        <div class="form-group">
+          <lable>Last Name: </lable>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            maxlenghth="50"
+          /><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Employee ID :</lable>
+          <input type="text" id="employeeid" class="empid" name="employee id" />
+        </div>
+
+        <div class="form-group">
+          <lable>DOJ :</lable>
+          <input type="date" id="joining date" name="DOJ" /><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Email :</lable>
+          <input
+            type="text"
+            id="emailid"
+            name="email,"
+            placeholder="abc@gmail.com"
+          /><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Gender :</lable>
+          <lable>male</lable>
+          <input type="radio" id="male" name="male" value="male" />
+          <lable>female</lable>
+          <input type="radio" id="Female" name="female" value="female" /><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Country :</lable>
+          <select id="country" name="country">
+            <option value="AF">AF</option>
+            <option value="INDIA">INDIA</option>
+            <option value="CHINA">CHINA</option></select
+          ><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Employee Of Optum :</lable>
+          <lable>Yes</lable>
+          <input type="checkbox" id="yes_optum_employee" name="enter_optum" />
+
+          <lable>No</lable>
+          <input
+            type="checkbox"
+            id="optum employee"
+            name="enter_optum "
+          /><br />
+        </div>
+
+        <div class="form-group">
+          <lable>Comment :</lable><br />
+          <textarea
+            name="message"
+            style="width: 400px; height: 50px"
+            placeholder="Please enter your comment"
+          >
+          </textarea>
+          <br />
+        </div>
+
+        <div class="form_buttons">
+          <button id="submitbutton">Submit</button>
+
+          <button id=reset>Reset</button> <br />
+        </div>
+
+        <footer>
+          <div class="form-group">
+            <strong>Note : Please enter your original Information.</strong>
+          </div>
+          <div class="contactinfo">
+            <p>
+              If you have Any Query please reach to us :<a
+                href="https://mail.google.com/"
+                target="_blank"
+                title="abc@gmail.com"
+                >Contact US</a
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
+    </form>
+  <script src="script.js"></script>
+  </body>
+</html>
